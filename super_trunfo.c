@@ -14,10 +14,10 @@ int main(){
     scanf(" %c", &estado1); //Coleta a letra do estado da primeira carta
 
     printf("\nMuito bem! Agora, digite o código da carta: \n");
-    scanf("%s", codigo1); //Coleta o código da primeira carta
+    scanf("%s", &codigo1); //Coleta o código da primeira carta
 
     printf("\nCerto! Agora, digite o nome da cidade: \n");
-    scanf("%s", cidade1); //Coleta o nome da cidade da primeira carta
+    scanf("%s", &cidade1); //Coleta o nome da cidade da primeira carta
 
     printf("\nIsso aí! Agora, digite a população da cidade: \n");
     scanf("%d", &populacao1); //Coleta a população da cidade da primeira carta
@@ -35,10 +35,10 @@ int main(){
     scanf(" %c", &estado2); //Coleta a letra do estado da segunda carta
 
     printf("\nMuito bem! Agora, digite o código da carta: \n");
-    scanf("%s", codigo2); //Coleta o código da segunda carta
+    scanf("%s", &codigo2); //Coleta o código da segunda carta
 
     printf("\nCerto! Agora, digite o nome da cidade: \n");
-    scanf("%s", cidade2); //Coleta o nome da cidade da segunda carta
+    scanf("%s", &cidade2); //Coleta o nome da cidade da segunda carta
 
     printf("\nIsso aí! Agora, digite a população da cidade: \n");
     scanf("%d", &populacao2); //Coleta a população da cidade da segunda carta
@@ -55,7 +55,7 @@ int main(){
     printf("Parabéns! Vamos verificar os atributos das cartas.");
 
     //Exibe os atributos da primeira carta
-    printf(" \n\n Carta 1 \n Estado: %c \n Código: %s \n Cidade: %s \n População: %d \n Número de Pontos Turísticos: %d \n PIB: %.2f \n Área da cidade: %.2f", estado1, codigo1, cidade1, populacao1, pontostur1, pib1, area1);
+    printf("\n\n Carta 1 \n Estado: %c \n Código: %s \n Cidade: %s \n População: %d \n Número de Pontos Turísticos: %d \n PIB: %.2f \n Área da cidade: %.2f", estado1, codigo1, cidade1, populacao1, pontostur1, pib1, area1);
     
     //Exibe os atributos da segunda carta
     printf("\n\n Carta 2 \n Estado: %c \n Código: %s \n Cidade: %s \n População: %d \n Número de Pontos Turísticos: %d \n PIB: %.2f \n Área da cidade: %.2f \n\n\n", estado2, codigo2, cidade2, populacao2, pontostur2, pib2, area2);
